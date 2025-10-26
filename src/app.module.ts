@@ -20,7 +20,7 @@ import { MatchEntity } from './football/entities/match.entity';
         password: config.get<string>('DB_PASSWORD'),
         database: config.get<string>('DB_NAME'),
         entities: [MatchEntity],
-        synchronize: true, // development only
+        synchronize: true, 
         autoLoadEntities: true,
       }),
     }),
